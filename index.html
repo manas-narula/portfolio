@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio website</title>
+  <link rel="stylesheet" href="stylee.css">
+  <script src="https://kit.fontawesome.com/8de52be734.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#About">Service</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p></p>
+        <h1>Hi, I'm <span>Manas Narula </span><br> From Graphic Era </h1>
+      </div>
+    </div>
+  </div>
+  <div id="About">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="WhatsApp Image 2023-11-04 at 03.00.15_3a6d8509.jpg" alt="photo">
+        </div>
+        <div class="about-col-1">
+          <h1 class="sub-tittle">About Me</h1>
+          <p>I am an undergraduate pursuing Bachelers Computer Application from Graphic Era University and my passion is
+            in coumpter science
+            my interest include Meachine learning , web development & Autificial Intelligence. I am looking
+            internships under these domains.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentabb('skills')">Skills</p>
+            <p class="tab-links" onclick="opentabb('experience')">Experience</p>
+            <p class="tab-links" onclick="opentabb('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>PROGRMING LANGUAGE</span><br>C , C++ , HTML , JAVA</li>
+              <li><span>SCRIPT</span><br>Python , CSS , JavaScript</li>
+              <li><span>TOOLS</span><br>visual studio , Jupyter-lab , Pycharm</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>INTERNSHIP</span><br>• Completed the Virtual Internship at BHARAT INTERN in Machine learning
+              </li>
+              <br>• Currently pursuing a Virtual Internship in Web Development and Design under Oasis Infobyte as a Web
+              Developer</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021-2024</span><br>pursuring BCA from GEU</li>
+              <li><span>2019-2020</span><br>12th from CBSE</li>
+              <li><span>2017-2018</span><br>10th from CBSE</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="Service">
+    <div class="container">
+      <h1 class="sub-tittle">My Services</h1>
+      <div class="service-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Meachine Learning</h2>
+          <p>Machine learning (ML) is a field of study in artificial intelligence concerned with the development and
+            study of statistical algorithms that can effectively ...</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-crop"></i>
+          <h2>Web Development</h2>
+          <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as
+            web design, web publishing </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-laptop"></i>
+          <h2>UI/UX Design </h2>
+          <p>UX design refers to the term “user experience design”, while UI stands for “user interface design”. Both
+            elements are crucial to a product and work closely together</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div id="Portfolio">
+    <div class="container">
+      <h1 class="sub-tittle">My Work </h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="work-2.png" alt="meachine learning">
+          <div class="layer">
+            <h3>Anomaly Dection using ML</h3>
+            <p>project performs anomaly detection over a dataset to detect the outliers using machine learning method
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work-1.png" alt="meachine learning">
+          <div class="layer">
+            <h3> House Price Prediction using ML</h3>
+            <p>House price prediction can help the developer determine the selling price of a house and can help the
+              customer to arrange the right time to purchase a house.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work-3.png" alt="meachine learning">
+          <div class="layer">
+            <h3>Modern chair</h3>
+            <p>Developed a temperature converter using HTML and CSS . The page shows the different chair's with
+              different
+              price </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-tittle">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i>manasnarula@8gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>9027392882</p>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <a href="my cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+            <button:type="sumbit" class="btn btn2">sumbit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+        <div class="contact-left"></div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentabb(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+
+    }
+    function closemenu() {
+      sidemenu.style.right = "-180px";
+
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwga8no6bAjAp9YF5WTokRgGgAXgYiZ1ULzPLw-hdTDULGZEff7ukn5bpeZqOrmLtTa/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "message sent successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
